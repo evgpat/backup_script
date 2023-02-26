@@ -19,5 +19,5 @@ All output except errors are suspended into the `error.log` file instead of *std
 
 ## Examples
 ```
-./backup.sh --backup_dir /home/evgpat/summer_music --algorithm z --output_file backup.gz
+./backup.sh --backup_dir /home/evgpat/summer_music --algorithm z --output_file backup.tar.gz
 ```
