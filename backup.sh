@@ -25,7 +25,7 @@ while [ $# -gt 0 ]; do
 done
 
 
-
+# compress backup folder
 if [ -z "$algorithm" ] # case when compression algorithm is not defined
 then
   tar -c -f $TMP_OUTPUT -C $backup_dir $(ls -A $backup_dir) 2>>$LOGFILE
